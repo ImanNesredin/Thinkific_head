@@ -1,0 +1,20 @@
+{
+  "name": "thinkific_head",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A Tailwind CSS project",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0"
+  }
+}
