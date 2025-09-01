@@ -3,3 +3,4 @@ node_modules/
 
 # Ignore Tailwind build 
 dist/
+!dist/output.css
